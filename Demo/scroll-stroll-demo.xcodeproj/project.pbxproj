@@ -18,6 +18,23 @@
 		83F66006166906F0007F4196 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66005166906F0007F4196 /* Default-568h@2x.png */; };
 		83F66009166906F0007F4196 /* SNAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F66008166906F0007F4196 /* SNAPViewController.m */; };
 		83F6600C166906F0007F4196 /* SNAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F6600A166906F0007F4196 /* SNAPViewController.xib */; };
+		83F6602516691793007F4196 /* SNAPScrollStroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F6602416691793007F4196 /* SNAPScrollStroll.m */; };
+		83F6606B166945FC007F4196 /* snap_walking_char1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66057166945FC007F4196 /* snap_walking_char1.png */; };
+		83F6606C166945FC007F4196 /* snap_walking_char1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66058166945FC007F4196 /* snap_walking_char1@2x.png */; };
+		83F6606D166945FC007F4196 /* snap_walking_char2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66059166945FC007F4196 /* snap_walking_char2.png */; };
+		83F6606E166945FC007F4196 /* snap_walking_char2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F6605A166945FC007F4196 /* snap_walking_char2@2x.png */; };
+		83F6606F166945FC007F4196 /* snap_walking_char3.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F6605B166945FC007F4196 /* snap_walking_char3.png */; };
+		83F66070166945FC007F4196 /* snap_walking_char3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F6605C166945FC007F4196 /* snap_walking_char3@2x.png */; };
+		83F66071166945FC007F4196 /* snap_walking_char4.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F6605D166945FC007F4196 /* snap_walking_char4.png */; };
+		83F66072166945FC007F4196 /* snap_walking_char4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F6605E166945FC007F4196 /* snap_walking_char4@2x.png */; };
+		83F66073166945FC007F4196 /* snap_walking_char5.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F6605F166945FC007F4196 /* snap_walking_char5.png */; };
+		83F66074166945FC007F4196 /* snap_walking_char5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66060166945FC007F4196 /* snap_walking_char5@2x.png */; };
+		83F66075166945FC007F4196 /* snap_walking_char6.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66061166945FC007F4196 /* snap_walking_char6.png */; };
+		83F66076166945FC007F4196 /* snap_walking_char6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66062166945FC007F4196 /* snap_walking_char6@2x.png */; };
+		83F66077166945FC007F4196 /* snap_walking_char7.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66063166945FC007F4196 /* snap_walking_char7.png */; };
+		83F66078166945FC007F4196 /* snap_walking_char7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66064166945FC007F4196 /* snap_walking_char7@2x.png */; };
+		83F66079166945FC007F4196 /* snap_walking_char8.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66065166945FC007F4196 /* snap_walking_char8.png */; };
+		83F6607A166945FC007F4196 /* snap_walking_char8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66066166945FC007F4196 /* snap_walking_char8@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +54,24 @@
 		83F66007166906F0007F4196 /* SNAPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAPViewController.h; sourceTree = "<group>"; };
 		83F66008166906F0007F4196 /* SNAPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAPViewController.m; sourceTree = "<group>"; };
 		83F6600B166906F0007F4196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SNAPViewController.xib; sourceTree = "<group>"; };
+		83F6602316691793007F4196 /* SNAPScrollStroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SNAPScrollStroll.h; path = ../../SNAPScrollStroll/Classes/SNAPScrollStroll.h; sourceTree = "<group>"; };
+		83F6602416691793007F4196 /* SNAPScrollStroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SNAPScrollStroll.m; path = ../../SNAPScrollStroll/Classes/SNAPScrollStroll.m; sourceTree = "<group>"; };
+		83F66057166945FC007F4196 /* snap_walking_char1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char1.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char1.png; sourceTree = "<group>"; };
+		83F66058166945FC007F4196 /* snap_walking_char1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char1@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char1@2x.png"; sourceTree = "<group>"; };
+		83F66059166945FC007F4196 /* snap_walking_char2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char2.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char2.png; sourceTree = "<group>"; };
+		83F6605A166945FC007F4196 /* snap_walking_char2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char2@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char2@2x.png"; sourceTree = "<group>"; };
+		83F6605B166945FC007F4196 /* snap_walking_char3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char3.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char3.png; sourceTree = "<group>"; };
+		83F6605C166945FC007F4196 /* snap_walking_char3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char3@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char3@2x.png"; sourceTree = "<group>"; };
+		83F6605D166945FC007F4196 /* snap_walking_char4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char4.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char4.png; sourceTree = "<group>"; };
+		83F6605E166945FC007F4196 /* snap_walking_char4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char4@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char4@2x.png"; sourceTree = "<group>"; };
+		83F6605F166945FC007F4196 /* snap_walking_char5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char5.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char5.png; sourceTree = "<group>"; };
+		83F66060166945FC007F4196 /* snap_walking_char5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char5@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char5@2x.png"; sourceTree = "<group>"; };
+		83F66061166945FC007F4196 /* snap_walking_char6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char6.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char6.png; sourceTree = "<group>"; };
+		83F66062166945FC007F4196 /* snap_walking_char6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char6@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char6@2x.png"; sourceTree = "<group>"; };
+		83F66063166945FC007F4196 /* snap_walking_char7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char7.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char7.png; sourceTree = "<group>"; };
+		83F66064166945FC007F4196 /* snap_walking_char7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char7@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char7@2x.png"; sourceTree = "<group>"; };
+		83F66065166945FC007F4196 /* snap_walking_char8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snap_walking_char8.png; path = ../../SNAPScrollStroll/Resources/snap_walking_char8.png; sourceTree = "<group>"; };
+		83F66066166945FC007F4196 /* snap_walking_char8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "snap_walking_char8@2x.png"; path = "../../SNAPScrollStroll/Resources/snap_walking_char8@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +118,8 @@
 		83F65FF5166906F0007F4196 /* scroll-stroll-demo */ = {
 			isa = PBXGroup;
 			children = (
-				83F65FFE166906F0007F4196 /* SNAPAppDelegate.h */,
-				83F65FFF166906F0007F4196 /* SNAPAppDelegate.m */,
-				83F66007166906F0007F4196 /* SNAPViewController.h */,
-				83F66008166906F0007F4196 /* SNAPViewController.m */,
-				83F6600A166906F0007F4196 /* SNAPViewController.xib */,
+				83F6602716692289007F4196 /* Classes */,
+				83F6602816692290007F4196 /* Resources */,
 				83F65FF6166906F0007F4196 /* Supporting Files */,
 			);
 			path = "scroll-stroll-demo";
@@ -105,6 +137,51 @@
 				83F66005166906F0007F4196 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83F6601216690867007F4196 /* SNAPScrollStroll */ = {
+			isa = PBXGroup;
+			children = (
+				83F6602316691793007F4196 /* SNAPScrollStroll.h */,
+				83F6602416691793007F4196 /* SNAPScrollStroll.m */,
+			);
+			name = SNAPScrollStroll;
+			sourceTree = "<group>";
+		};
+		83F6602716692289007F4196 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83F6601216690867007F4196 /* SNAPScrollStroll */,
+				83F65FFE166906F0007F4196 /* SNAPAppDelegate.h */,
+				83F65FFF166906F0007F4196 /* SNAPAppDelegate.m */,
+				83F66007166906F0007F4196 /* SNAPViewController.h */,
+				83F66008166906F0007F4196 /* SNAPViewController.m */,
+				83F6600A166906F0007F4196 /* SNAPViewController.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		83F6602816692290007F4196 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83F66057166945FC007F4196 /* snap_walking_char1.png */,
+				83F66058166945FC007F4196 /* snap_walking_char1@2x.png */,
+				83F66059166945FC007F4196 /* snap_walking_char2.png */,
+				83F6605A166945FC007F4196 /* snap_walking_char2@2x.png */,
+				83F6605B166945FC007F4196 /* snap_walking_char3.png */,
+				83F6605C166945FC007F4196 /* snap_walking_char3@2x.png */,
+				83F6605D166945FC007F4196 /* snap_walking_char4.png */,
+				83F6605E166945FC007F4196 /* snap_walking_char4@2x.png */,
+				83F6605F166945FC007F4196 /* snap_walking_char5.png */,
+				83F66060166945FC007F4196 /* snap_walking_char5@2x.png */,
+				83F66061166945FC007F4196 /* snap_walking_char6.png */,
+				83F66062166945FC007F4196 /* snap_walking_char6@2x.png */,
+				83F66063166945FC007F4196 /* snap_walking_char7.png */,
+				83F66064166945FC007F4196 /* snap_walking_char7@2x.png */,
+				83F66065166945FC007F4196 /* snap_walking_char8.png */,
+				83F66066166945FC007F4196 /* snap_walking_char8@2x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +241,22 @@
 				83F66004166906F0007F4196 /* Default@2x.png in Resources */,
 				83F66006166906F0007F4196 /* Default-568h@2x.png in Resources */,
 				83F6600C166906F0007F4196 /* SNAPViewController.xib in Resources */,
+				83F6606B166945FC007F4196 /* snap_walking_char1.png in Resources */,
+				83F6606C166945FC007F4196 /* snap_walking_char1@2x.png in Resources */,
+				83F6606D166945FC007F4196 /* snap_walking_char2.png in Resources */,
+				83F6606E166945FC007F4196 /* snap_walking_char2@2x.png in Resources */,
+				83F6606F166945FC007F4196 /* snap_walking_char3.png in Resources */,
+				83F66070166945FC007F4196 /* snap_walking_char3@2x.png in Resources */,
+				83F66071166945FC007F4196 /* snap_walking_char4.png in Resources */,
+				83F66072166945FC007F4196 /* snap_walking_char4@2x.png in Resources */,
+				83F66073166945FC007F4196 /* snap_walking_char5.png in Resources */,
+				83F66074166945FC007F4196 /* snap_walking_char5@2x.png in Resources */,
+				83F66075166945FC007F4196 /* snap_walking_char6.png in Resources */,
+				83F66076166945FC007F4196 /* snap_walking_char6@2x.png in Resources */,
+				83F66077166945FC007F4196 /* snap_walking_char7.png in Resources */,
+				83F66078166945FC007F4196 /* snap_walking_char7@2x.png in Resources */,
+				83F66079166945FC007F4196 /* snap_walking_char8.png in Resources */,
+				83F6607A166945FC007F4196 /* snap_walking_char8@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +270,7 @@
 				83F65FFC166906F0007F4196 /* main.m in Sources */,
 				83F66000166906F0007F4196 /* SNAPAppDelegate.m in Sources */,
 				83F66009166906F0007F4196 /* SNAPViewController.m in Sources */,
+				83F6602516691793007F4196 /* SNAPScrollStroll.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +386,7 @@
 				83F66011166906F0007F4196 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
