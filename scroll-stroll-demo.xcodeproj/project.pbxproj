@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83F65FF0166906F0007F4196 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F65FEF166906F0007F4196 /* UIKit.framework */; };
+		83F65FF2166906F0007F4196 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F65FF1166906F0007F4196 /* Foundation.framework */; };
+		83F65FF4166906F0007F4196 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F65FF3166906F0007F4196 /* CoreGraphics.framework */; };
+		83F65FFA166906F0007F4196 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83F65FF8166906F0007F4196 /* InfoPlist.strings */; };
+		83F65FFC166906F0007F4196 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F65FFB166906F0007F4196 /* main.m */; };
+		83F66000166906F0007F4196 /* SNAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F65FFF166906F0007F4196 /* SNAPAppDelegate.m */; };
+		83F66002166906F0007F4196 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66001166906F0007F4196 /* Default.png */; };
+		83F66004166906F0007F4196 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66003166906F0007F4196 /* Default@2x.png */; };
+		83F66006166906F0007F4196 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83F66005166906F0007F4196 /* Default-568h@2x.png */; };
+		83F66009166906F0007F4196 /* SNAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F66008166906F0007F4196 /* SNAPViewController.m */; };
+		83F6600C166906F0007F4196 /* SNAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83F6600A166906F0007F4196 /* SNAPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83F65FEB166906F0007F4196 /* scroll-stroll-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scroll-stroll-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F65FEF166906F0007F4196 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83F65FF1166906F0007F4196 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83F65FF3166906F0007F4196 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83F65FF7166906F0007F4196 /* scroll-stroll-demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scroll-stroll-demo-Info.plist"; sourceTree = "<group>"; };
+		83F65FF9166906F0007F4196 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83F65FFB166906F0007F4196 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83F65FFD166906F0007F4196 /* scroll-stroll-demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scroll-stroll-demo-Prefix.pch"; sourceTree = "<group>"; };
+		83F65FFE166906F0007F4196 /* SNAPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAPAppDelegate.h; sourceTree = "<group>"; };
+		83F65FFF166906F0007F4196 /* SNAPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAPAppDelegate.m; sourceTree = "<group>"; };
+		83F66001166906F0007F4196 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83F66003166906F0007F4196 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83F66005166906F0007F4196 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83F66007166906F0007F4196 /* SNAPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNAPViewController.h; sourceTree = "<group>"; };
+		83F66008166906F0007F4196 /* SNAPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNAPViewController.m; sourceTree = "<group>"; };
+		83F6600B166906F0007F4196 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SNAPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83F65FE8166906F0007F4196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F65FF0166906F0007F4196 /* UIKit.framework in Frameworks */,
+				83F65FF2166906F0007F4196 /* Foundation.framework in Frameworks */,
+				83F65FF4166906F0007F4196 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83F65FE0166906F0007F4196 = {
+			isa = PBXGroup;
+			children = (
+				83F65FF5166906F0007F4196 /* scroll-stroll-demo */,
+				83F65FEE166906F0007F4196 /* Frameworks */,
+				83F65FEC166906F0007F4196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83F65FEC166906F0007F4196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83F65FEB166906F0007F4196 /* scroll-stroll-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F65FEE166906F0007F4196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83F65FEF166906F0007F4196 /* UIKit.framework */,
+				83F65FF1166906F0007F4196 /* Foundation.framework */,
+				83F65FF3166906F0007F4196 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83F65FF5166906F0007F4196 /* scroll-stroll-demo */ = {
+			isa = PBXGroup;
+			children = (
+				83F65FFE166906F0007F4196 /* SNAPAppDelegate.h */,
+				83F65FFF166906F0007F4196 /* SNAPAppDelegate.m */,
+				83F66007166906F0007F4196 /* SNAPViewController.h */,
+				83F66008166906F0007F4196 /* SNAPViewController.m */,
+				83F6600A166906F0007F4196 /* SNAPViewController.xib */,
+				83F65FF6166906F0007F4196 /* Supporting Files */,
+			);
+			path = "scroll-stroll-demo";
+			sourceTree = "<group>";
+		};
+		83F65FF6166906F0007F4196 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83F65FF7166906F0007F4196 /* scroll-stroll-demo-Info.plist */,
+				83F65FF8166906F0007F4196 /* InfoPlist.strings */,
+				83F65FFB166906F0007F4196 /* main.m */,
+				83F65FFD166906F0007F4196 /* scroll-stroll-demo-Prefix.pch */,
+				83F66001166906F0007F4196 /* Default.png */,
+				83F66003166906F0007F4196 /* Default@2x.png */,
+				83F66005166906F0007F4196 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83F65FEA166906F0007F4196 /* scroll-stroll-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F6600F166906F0007F4196 /* Build configuration list for PBXNativeTarget "scroll-stroll-demo" */;
+			buildPhases = (
+				83F65FE7166906F0007F4196 /* Sources */,
+				83F65FE8166906F0007F4196 /* Frameworks */,
+				83F65FE9166906F0007F4196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scroll-stroll-demo";
+			productName = "scroll-stroll-demo";
+			productReference = 83F65FEB166906F0007F4196 /* scroll-stroll-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83F65FE2166906F0007F4196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SNAP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Edwin Iskandar";
+			};
+			buildConfigurationList = 83F65FE5166906F0007F4196 /* Build configuration list for PBXProject "scroll-stroll-demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83F65FE0166906F0007F4196;
+			productRefGroup = 83F65FEC166906F0007F4196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83F65FEA166906F0007F4196 /* scroll-stroll-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83F65FE9166906F0007F4196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F65FFA166906F0007F4196 /* InfoPlist.strings in Resources */,
+				83F66002166906F0007F4196 /* Default.png in Resources */,
+				83F66004166906F0007F4196 /* Default@2x.png in Resources */,
+				83F66006166906F0007F4196 /* Default-568h@2x.png in Resources */,
+				83F6600C166906F0007F4196 /* SNAPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83F65FE7166906F0007F4196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F65FFC166906F0007F4196 /* main.m in Sources */,
+				83F66000166906F0007F4196 /* SNAPAppDelegate.m in Sources */,
+				83F66009166906F0007F4196 /* SNAPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83F65FF8166906F0007F4196 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F65FF9166906F0007F4196 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83F6600A166906F0007F4196 /* SNAPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83F6600B166906F0007F4196 /* en */,
+			);
+			name = SNAPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83F6600D166906F0007F4196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83F6600E166906F0007F4196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83F66010166906F0007F4196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scroll-stroll-demo/scroll-stroll-demo-Prefix.pch";
+				INFOPLIST_FILE = "scroll-stroll-demo/scroll-stroll-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83F66011166906F0007F4196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "scroll-stroll-demo/scroll-stroll-demo-Prefix.pch";
+				INFOPLIST_FILE = "scroll-stroll-demo/scroll-stroll-demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83F65FE5166906F0007F4196 /* Build configuration list for PBXProject "scroll-stroll-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F6600D166906F0007F4196 /* Debug */,
+				83F6600E166906F0007F4196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F6600F166906F0007F4196 /* Build configuration list for PBXNativeTarget "scroll-stroll-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83F66010166906F0007F4196 /* Debug */,
+				83F66011166906F0007F4196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83F65FE2166906F0007F4196 /* Project object */;
+}
